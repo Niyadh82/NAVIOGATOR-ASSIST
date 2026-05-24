@@ -50,7 +50,7 @@ const contactLimiter = rateLimit({
 
 // ── Static frontend ───────────────────────────────────────────────────────────
 // Drop navigator-assist.html into the /public folder for self-contained serving
-app.use(express.static(path.join(__dirname, 'dirname')));
+app.use(express.static(__dirname));
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.use('/api/contact', contactLimiter, contactRouter);
