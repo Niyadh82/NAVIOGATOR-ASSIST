@@ -30,10 +30,10 @@ Edit `.env` with your values:
 ```env
 PORT=3000
 EMAIL_USER=navigatorassist@gmail.com
-EMAIL_PASS=your_gmail_app_password
+EMAIL_PASS=juoatwnwoagfrjbo
 EMAIL_TO=navigatorassist@gmail.com
 ADMIN_USER=admin
-ADMIN_PASS=your_secure_password
+ADMIN_PASS=Navigator@2026
 ALLOWED_ORIGINS=http://localhost:3000,https://yourdomain.com
 ```
 
